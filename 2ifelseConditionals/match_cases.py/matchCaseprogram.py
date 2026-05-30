@@ -1,0 +1,10 @@
+var = input("Enter the operator +,_,*,/,%")
+match var:
+    case  "+": print("This is addition operator ")
+    case  "-": print("This is subtracton operator ")
+    case "*": print("This is multiplication operator ")
+    case "/": print("This is division  operator ")
+    case "/": print("This is floor division  operator ")
+    case "%": print("This is modulo operator ")
+    case "**": print("This is exponent operator operator ")
+    case _: print("operator not fount")
